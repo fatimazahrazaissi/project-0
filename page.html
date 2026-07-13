@@ -1,0 +1,264 @@
+<head>
+    <title>landing page</title>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+.font-hanken {
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+.font-inter{
+    font-family: "Inter",sans-serif;
+}
+body{
+    font-family: "Inter";
+}
+html{
+    scroll-behavior: smooth;
+}
+  </style>
+
+    
+</head>
+<body >
+   <nav class=" fixed  w-full flex flex-row justify-between py-4 bg-gray-100">
+
+        <div class=" flex flex-row gap-3 text-3xl ml-4 items-center">
+            <img src="/logo.svg" alt="logo">
+            <div class="font-hanken">MinimalSaaS</div>
+        </div>
+        <div class="hidden md:flex md:justify-between md:items-center md:gap-16 md:text-xl font-inter">
+    <a href="#home" class="nav-link pb-1 border-b-2 border-transparent">Home</a>
+    <a href="#features" class="nav-link pb-1 border-b-2 border-transparent">Features</a>
+    <a href="#pricing" class="nav-link pb-1 border-b-2 border-transparent">Pricing</a>
+    <a href="#company" class="nav-link pb-1 border-b-2 border-transparent">Company</a>
+</div>
+        <button class="font-inter text-xl mr-7 border  rounded-3xl px-6 py-2 bg-[#0055ff] text-white">Get Started</button>
+    </nav>
+    <section id="home" class="flex flex-col px-8 gap-6 md:flex md:flex-row md:justify-between md:pt-16 md:px-6">
+        <div class=" md:w-1/2" >
+            <div class="mt-20 text-[#0055ff] bg-blue-200 border rounded-3xl pl-2 pr-6 w-60">NEW: VERSION 2.0 IS OUT</div>
+            <h1 class="text-7xl font-hanken font-bold mb-12 ">Design your future with pure clarity.</h1>
+            <p class="text-xl mb-16">The ultra-minimalist workspace for high-performing teams. Reduce noise, focus on what matters, and ship faster than ever.</p>
+            <div class="flex flex-row justify-center gap-8 text-2xl">
+                
+            <button class="text-white bg-[#0055ff] px-5 py-2 border rounded-xl">
+                    Start for free
+                </button>
+           
+             
+                <button>
+                    <div class="flex flex-row gap-2 bg-[#f8fafc] border border-black px-5 py-2  rounded-xl">
+                        <div >view demo</div>
+                        <img src="/fleche.svg">
+                    </div>
+                </button>
+    
+            </div>
+        </div>
+        <div class="md:w-1/2">
+                <img src="/img.jpeg" class="px-8 ">
+            
+        </div>
+    </section>
+
+
+
+    <section id="features" class="pt-32 pb-32 bg-gray-100">
+        <div class="w-2/3 mx-auto">
+            <h1 class="text-5xl font-hanken font-bold mb-12  text-center">Built for focused work</h1>
+            <p class=" text-center text-xl mb-32">Everything you need, nothing you don't. We've stripped away the complexity to leave only the tools that drive results.</p>
+        </div>
+        <div class=" flex flex-col gap-12 md:flex md:flex-row md:gap-12 mx-8 md:items-center ">
+            <div class="border border-[#8E9193] px-8 py-12  rounded rounded-2xl bg-white" > 
+                <div class="bg-blue-200 w-8 rounded rounded-lg py-1 ">
+                    <img src="/icone1.svg">
+                </div>
+                <h1 class="font-semibold text-2xl">Smart Automation</h1>
+                <p class="text-lg">Let our engine handle repetitive tasks
+while you focus on high-impact creative
+decision making.</p>
+            </div>
+            <div class="border border-[#8E9193]  px-8 py-12  rounded rounded-2xl bg-white">
+                <div class="bg-blue-200 w-7 pl-1 rounded rounded-lg py-1">
+                    <img src="/icone2.svg">
+                </div>
+                <h1 class="font-semibold text-2xl"> Military-Grade Security</h1>
+                <p class="text-lg"> Your data is encrypted end-to-end. We
+maintain the highest standards of privacy
+for your peace of mind.</p>
+            </div>
+            <div class="border border-[#8E9193]  px-8 py-12 rounded rounded-2xl bg-white">
+                <div  class="bg-blue-200 w-7 px-1 h-10  rounded rounded-lg ">
+                    <img src="/icone3.svg">
+                </div>
+                
+                <h1 class="font-semibold text-2xl">Global Sync </h1>
+                <p class="text-lg">Collaborate effortlessly with your team
+across time zones with real-time state
+synchronization.</p>
+            </div>
+        </div>
+    </section>
+   
+   
+   
+   
+    <section id="pricing" class="pt-16 pb-32 mx-8">
+        <h1 class="text-5xl font-hanken font-bold mb-12  text-center">Trusted by pionners</h1>
+        <div class=" flex flex-col md:flex md:flex-row  md:text-lg gap-8 ">
+        <div  class="flex flex-col gap-6 border border-black px-6 py-6 rounded rounded-2xl">
+            <p>
+                "The speed of the interface is
+unmatched. No loading spinners, no
+lag—just pure execution. It has
+become our central nervous system."
+            </p>
+            <div class=" flex flex-row text-sm">
+                <div class="bg-gray-200 p-2 border rounded rounded-full"> <img class="w-6" src="/profil.svg"></div>
+                <div class="flex flex-col">
+                    <div>
+                        Marcus Thorne
+                    </div>
+                    <div>
+                        CTO, PulseTech
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex flex-col  gap-6 border border-black px-6 py-6 rounded rounded-2xl">
+            <p>
+                "MinimalSaaS changed the way our
+design team operates. The interface
+is so clean it actually encourages us
+to think more clearly about our own
+products."
+            </p>
+            <div class=" flex flex-row">
+                 <div class="bg-gray-200 p-2 border rounded rounded-full"> <img class="w-6" src="/profil.svg"></div>
+                <div class="flex flex-col text-sm">
+                    <div>
+                        Alex Rivera
+                    </div>
+                    <div>
+                        Lead Designer, Orbit
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+        <div class="flex flex-col  gap-6 border border-black px-6 py-6 rounded rounded-2xl">
+            <p>
+                "I've tried every project management
+tool out there. This is the first one that
+doesn't feel like a chore to use every
+single morning. Simply beautiful."
+            </p>
+            <div class=" flex flex-row">
+               <div class="bg-gray-200 p-2 border rounded rounded-full"> <img class="w-6" src="/profil.svg"></div>
+                <div class="flex flex-col text-sm">
+                    <div>
+                        Sarah Chen
+                    </div>
+                    <div>
+                        Founder, Zenith Labs
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </section>
+
+
+
+
+    <section id="company" class="bg-[#0055ff] mx-16 pt-32 border rounded-2xl">
+        <h1 class="font-hanken text-5xl text-white text-center w-69 mb-16">
+            Ready to simplify your production
+cycle?
+        </h1>
+        <p class="text-xl text-center mb-32" >Join over 10,000 teams building the future with MinimalSaaS today.</p>
+<div class="flex flex row gap-6 justify-center items-center mb-32 text-lg">
+    <button class="bg-white px-6 py-4 border rounded-2xl">Get Started Now</button>
+    <button class="text-sm"> no credit card required </button>
+</div>
+    </section>
+    
+    
+    
+    
+    
+    
+    <section>
+        <div class=" flex flex-col gap-12 md:flex md:flex-row md:justify-between md:items-center px-8 py-32 bg-gray-200 mt-32">
+            <div class=" flex flex-row gap-3 text-3xl ml-4 items-center">
+            <img src="/logo.svg" alt="logo">
+            <div class="font-hanken">MinimalSaaS</div>
+            </div>
+            <div class=" flex flex-row gap-4">
+                <a>Product</a>
+                <a>Features</a>
+                <a>Features</a>
+                <a>Privacy</a>
+                <a>Terms</a>
+            </div>
+            <div class="flex flex-col ">
+                <div> © 2024 MinimalSaaS Inc. All rights reserved.</div>
+                <div class="flex gap-3 justify-end">
+                    <img src="/icone4.svg">
+                    <img src="/icone5.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+<script>
+const sections = document.querySelectorAll("section[id]");
+const navLinks = document.querySelectorAll(".nav-link");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+
+        navLinks.forEach((link) => {
+          link.classList.remove(
+            "text-[#0055ff]",
+            "border-b-2",
+            "border-[#0055ff]"
+          );
+
+          if (link.getAttribute("href") === "#" + id) {
+            link.classList.add(
+              "text-[#0055ff]",
+              "border-b-2",
+              "border-[#0055ff]"
+            );
+          }
+        });
+      }
+    });
+  },
+  {
+    threshold: 0.6
+  }
+);
+
+sections.forEach((section) => observer.observe(section));
+</script>
+
+</body>
